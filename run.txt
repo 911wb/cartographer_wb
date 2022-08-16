@@ -1,0 +1,24 @@
+2d:
+roslaunch cartographer_ros wb_rs16_2d_outdoor.launch
+
+
+3D:
+roslaunch cartographer_ros wb_rs16_3d_outdoor.launch
+
+./finish_slam_3d.sh
+roslaunch cartographer_ros assets_writer_3d.launch
+pcl_viewer
+
+
+sim:
+roslaunch my_gazebo robot_laser_gazebo.launch
+roslaunch cartographer_ros A.launch
+
+sim:
+roslaunch gazebo env.launch
+roslaunch cartographer_ros A1.launch
+
+
+
+
+

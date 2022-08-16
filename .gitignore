@@ -1,0 +1,9 @@
+
+build_isolated/
+devel_isolated/
+install_isolated/
+*~
+src/CMakeLists.txt
+wb/
+.vscode/
+map/
